@@ -1,0 +1,55 @@
+// Override default variables before the import
+// you can open the bootstrap.scss module and check any available variables.
+// $primary: #FFCAAB;
+// $secondary: #FFFCFA;
+$primary: #BBE4B5;
+$darkerPrimary: #86C487;
+$secondary: #FFFCFA;
+// $primary : #83C5BE;
+// $secondary: #f8f9fa;
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #FFFCD5;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark:#E29578; 
+
+$textGrey: #595959;
+
+//custom color to be mapped
+$accentGreen : #00815E;
+$accentGreenLight: #BBE4B5;
+
+$accentBlue : #83C5BE;
+$accentBlueLight: #C0ECFA;
+$accentBlueDark: #355070; 
+
+$accentYellow: #FFFCD5;
+$accentPink: #F1B9A5;
+$accentDarkPink: #E29578;
+
+// this is used to map colors. change accordingly.
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+// add any additional color below
+  textGrey: $textGrey,
+  accentGreen: $accentGreen,
+  accentGreenLight: $accentGreenLight,
+  accentBlue: $accentBlue,
+  accentBlueLight: $accentBlueLight,
+  accentBlueDark: $accentBlueDark,
+  accentPink: $accentPink,
+  accentDarkPink: $accentDarkPink,
+  darkerPrimary: $darkerPrimary
+// now bg-accent,btn-accent,etc.. can be called
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
